@@ -1,0 +1,32 @@
+{
+  "name": "personal-toolkit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryceStPierre/personal-toolkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryceStPierre/personal-toolkit/issues"
+  },
+  "homepage": "https://github.com/BryceStPierre/personal-toolkit#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.8"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "pg": "^7.7.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
