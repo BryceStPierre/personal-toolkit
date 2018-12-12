@@ -5,10 +5,10 @@ import './index.css';
 import App from './App';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faIgloo } from '@fortawesome/free-solid-svg-icons'
+import { faIgloo, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faIgloo)
+library.add(faIgloo, faCoffee);
+
 //import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
