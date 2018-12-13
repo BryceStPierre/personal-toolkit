@@ -1,5 +1,14 @@
-const db = require('./database');
+const tableActions = require('./data-access/table');
 
-db.query('SELECT NOW()', (err, rows) => {
-  console.log(rows);
+tableActions.createTable('Notes', (err, res) => {
+  console.log(err);
+  console.log(res);
+
+
+  tableActions.dropTable('Notes', (err, res) => {
+    console.log(err);
+    console.log(res);
+  });
+
 });
+
