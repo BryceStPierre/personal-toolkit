@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import Header from './Header';
 import Grid from './Grid';
 
-class Tools extends Component {
+class Home extends Component {
   render() {
     return (
       <div className='tools'>
@@ -23,4 +23,4 @@ class Tools extends Component {
   }
 }
 
-export default Tools;
+export default Home;
