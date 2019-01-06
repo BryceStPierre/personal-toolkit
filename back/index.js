@@ -1,14 +1,11 @@
 const tableActions = require('./data-access/table');
 
-tableActions.createTable('Notes', (err, res) => {
+tableActions.createTable('topic.Notes', (err, res) => {
   console.log(err);
   console.log(res);
 
-
-  tableActions.dropTable('Notes', (err, res) => {
+  tableActions.dropTable('topic.Notes', (err, res) => {
     console.log(err);
     console.log(res);
   });
-
 });
-
