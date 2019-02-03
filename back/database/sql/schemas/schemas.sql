@@ -1,4 +1,0 @@
-DROP SCHEMA public;
-
-CREATE SCHEMA meta;
-CREATE SCHEMA topic;

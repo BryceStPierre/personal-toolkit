@@ -1,7 +1,0 @@
-CREATE TABLE meta.tableList (
-  table_id SERIAL PRIMARY KEY,
-  table_name VARCHAR(150) NOT NULL,
-  table_label VARCHAR(150) NOT NULL,
-  table_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  table_modified TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
