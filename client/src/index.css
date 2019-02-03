@@ -1,0 +1,40 @@
+body {
+  background-color: #222!important;
+  color: #fff!important;
+}
+
+p {
+  text-align: justify;
+}
+
+.bg-dark {
+  background-color: #222!important;
+}
+
+.branding {
+  margin-right: 0.75rem;
+  margin-top: -0.25rem;
+  width: 24px;
+  height: 30px;
+}
+
+.branding-footer {
+  width: 40px;
+  height: 50px;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.text-red {
+  color: #dc3545;
+}
+
+.text-small {
+  font-size: 12px;
+}
+
+.navbar-toggler {
+  border: none;
+}
